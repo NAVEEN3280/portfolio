@@ -20,7 +20,7 @@ function Projects() {
       name: "SEO Analyzer",
       des: "This web-based SEO Analyzer Tool evaluates website performance by analyzing SEO elements like title tags, meta descriptions, keywords, mobile responsiveness, page speed, and backlinks. It generates an SEO score and provides actionable recommendations for improving search engine visibility. Built using Flask for the backend and React.js for the front-end, this tool helps users optimize their websites. Reports are available for download to track ongoing SEO improvements.",
       mission:
-        "My mission is to provide our company and our clients with a powerful, user-friendly SEO analysis tool that delivers real-time insights and actionable recommendations. Designed to enhance website performance, the SEO Analyzer aims to improve search engine visibility, user experience, and overall digital presence, helping businesses boost their online rankings, increase traffic, and achieve long-term success in the competitive digital landscape.",
+        "Our mission is to provide our company and our clients with a powerful, user-friendly SEO analysis tool that delivers real-time insights and actionable recommendations. Designed to enhance website performance, the SEO Analyzer aims to improve search engine visibility, user experience, and overall digital presence, helping businesses boost their online rankings, increase traffic, and achieve long-term success in the competitive digital landscape.",
       language: "HTML5, CSS3, Python,...",
       images: "/seo.jpg",
     },
@@ -28,8 +28,8 @@ function Projects() {
       name: "AI Chat Bot by using Ollama",
       des: "This local chatbot is developed using Ollama, an AI-powered platform that enables natural language processing (NLP) for real-time interactions. The chatbot operates locally, offering quick and privacy-focused responses to user queries without the need for external server dependencies. It is customizable for various applications, making it a versatile solution for dynamic customer support, personal assistance, and information retrieval. This project demonstrates the power of on-premise AI technology with a simple yet effective user experience.",
       mission:
-        "My mission is to provide efficient, privacy-focused, and customizable AI-driven chat solutions by utilizing Ollama’s natural language processing capabilities. This local chatbot aims to enhance user interaction, providing quick and accurate responses while maintaining full control and security by running entirely on local systems. Our goal is to improve the user experience by offering seamless communication and intelligent assistance without the need for external dependencies.",
-      language: "Python",
+        "Our mission is to provide efficient, privacy-focused, and customizable AI-driven chat solutions by utilizing Ollama’s natural language processing capabilities. This local chatbot aims to enhance user interaction, providing quick and accurate responses while maintaining full control and security by running entirely on local systems. Our goal is to improve the user experience by offering seamless communication and intelligent assistance without the need for external dependencies.",
+      language: "HTML5, CSS3, React JS, SockerIO,...",
       images: "/chat.jpg",
     },
   ]);
