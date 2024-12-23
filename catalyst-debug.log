@@ -1,0 +1,58 @@
+[debug] [2024-12-23T07:08:00.041Z] : 
+[debug] [2024-12-23T07:08:00.043Z] : ----------------------------------------------------------------------
+[debug] [2024-12-23T07:08:00.044Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-12-23T07:08:00.044Z] : CLI Version:  1.17.6
+[debug] [2024-12-23T07:08:00.044Z] : Platform:     win32
+[debug] [2024-12-23T07:08:00.045Z] : Node Version: v20.16.0
+[debug] [2024-12-23T07:08:00.045Z] : Time:         Mon Dec 23 2024 12:38:00 GMT+0530 (India Standard Time)
+[debug] [2024-12-23T07:08:00.045Z] : ----------------------------------------------------------------------
+[debug] [2024-12-23T07:08:00.045Z] : 
+[debug] [2024-12-23T07:08:02.231Z] : > authorizing via signed-in user option
+[debug] [2024-12-23T07:08:02.233Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2024-12-23T07:08:02.264Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/9250000000047005 
+
+[debug] [2024-12-23T07:08:02.490Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 23 Dec 2024 07:08:02 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=e019acfe-e2e7-4006-a8f3-d43f7c5a8820;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e019acfe-e2e7-4006-a8f3-d43f7c5a8820;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2024-12-23T07:08:02.498Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/9250000000047005/environment 
+
+[debug] [2024-12-23T07:08:02.543Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 23 Dec 2024 07:08:02 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=473843df-2860-4b0c-bd61-8d6a8830e337;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=473843df-2860-4b0c-bd61-8d6a8830e337;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2024-12-23T07:08:03.306Z] : http port : '5000' is not available. Hence port '5001' will be used instead.
+[debug] [2024-12-23T07:08:03.307Z] : No basic functions to add
+[info] [2024-12-23T07:08:08.149Z] : [react-plugin]: Starting the development server...
+
+[info] [2024-12-23T07:08:08.151Z] : 
+[info] [2024-12-23T07:08:08.152Z] : ℹ Client[portfolio]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[info] [2024-12-23T07:08:08.152Z] : 
+[info] [2024-12-23T07:08:11.103Z] : 
+[info] [2024-12-23T07:08:11.103Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-12-23T07:08:11.104Z] : ℹ client[portfolio]: http://localhost:3000/app/
+[info] [2024-12-23T07:08:11.104Z] : 
+[info] [2024-12-23T07:08:20.688Z] : [react-plugin]: Compiled successfully!
+[info] [2024-12-23T07:08:20.689Z] : [react-plugin]: 
+[info] [2024-12-23T07:08:20.690Z] : [react-plugin]: You can now view portfolio in the browser.
+[info] [2024-12-23T07:08:20.690Z] : [react-plugin]: 
+[info] [2024-12-23T07:08:20.691Z] : [react-plugin]:   Local:            http://localhost:3000/app/
+[info] [2024-12-23T07:08:20.692Z] : [react-plugin]:   On Your Network:  http://192.168.42.1:3000/app/
+[info] [2024-12-23T07:08:20.692Z] : [react-plugin]: 
+[info] [2024-12-23T07:08:20.692Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2024-12-23T07:08:20.693Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2024-12-23T07:08:20.694Z] : [react-plugin]: 
+[debug] [2024-12-23T07:11:21.578Z] : proxy closed
+[info] [2024-12-23T07:13:13.878Z] : Shutting down server
+[info] [2024-12-23T07:13:13.913Z] : 
+[info] [2024-12-23T07:13:13.916Z] : ✔ Shutdown complete
+[debug] [2024-12-23T07:13:13.918Z] : NO ERRORS REGISTERED
+[debug] [2024-12-23T07:13:13.922Z] : EXEC ENDED with event: serve, message: success
+[debug] [2024-12-23T07:13:13.923Z] : TOTAL DURATION OF COMMAND EXEC : 311719
+[debug] [2024-12-23T07:13:13.979Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-12-23T07:13:14.381Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Mon, 23 Dec 2024 07:13:14 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=1b7d5097-f619-42c0-b7f8-10c44a92f217;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1b7d5097-f619-42c0-b7f8-10c44a92f217;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=267D39B23C03FF7768E590262404E555; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2024-12-23T07:13:14.384Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2024-12-23T07:13:14.400Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
