@@ -14,7 +14,7 @@ function Projects() {
       mission:
         "To provide an affordable, efficient, and user-friendly alternative to expensive bulk email software, empowering users to send personalized, large-scale communications without the hefty price tag.",
       language: "HTML5, CSS3, Python,...",
-      images: "/bulk.jpg",
+      images: "../public/bulk.jpg",
     },
     {
       name: "SEO Analyzer",
@@ -22,7 +22,7 @@ function Projects() {
       mission:
         "Our mission is to provide our company and our clients with a powerful, user-friendly SEO analysis tool that delivers real-time insights and actionable recommendations. Designed to enhance website performance, the SEO Analyzer aims to improve search engine visibility, user experience, and overall digital presence, helping businesses boost their online rankings, increase traffic, and achieve long-term success in the competitive digital landscape.",
       language: "HTML5, CSS3, Python,...",
-      images: "/seo.jpg",
+      images: "../public/seo.jpg",
     },
     {
       name: "AI Chat Bot by using Ollama",
@@ -30,7 +30,7 @@ function Projects() {
       mission:
         "Our mission is to provide efficient, privacy-focused, and customizable AI-driven chat solutions by utilizing Ollama’s natural language processing capabilities. This local chatbot aims to enhance user interaction, providing quick and accurate responses while maintaining full control and security by running entirely on local systems. Our goal is to improve the user experience by offering seamless communication and intelligent assistance without the need for external dependencies.",
       language: "HTML5, CSS3, React JS, SockerIO,...",
-      images: "/chat.jpg",
+      images: "../public/chat.jpg",
     },
   ]);
   const divs = useRef([]);
